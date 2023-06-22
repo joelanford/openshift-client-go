@@ -13,6 +13,8 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3
 )
 
+replace github.com/openshift/api => github.com/joelanford/openshift-api v0.0.0-20230623000109-9ea4be9d5d37
+
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/emicklei/go-restful/v3 v3.9.0 // indirect
